@@ -7,7 +7,15 @@ namespace ValidadorCPF.Repo
 {
     public class AppContext : DbContext
     {
+        public AppContext() { }
+
         public AppContext(DbContextOptions<AppContext> options) : base(options) { }
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            optionsBuilder.UseMySQL("server=localhost;database=validadorCpf;user=root;password=w%@I90AZw@uh");
+            base.OnConfiguring(optionsBuilder); 
+        }
 
         public DbSet<CPF> CPF { get; set; }
 

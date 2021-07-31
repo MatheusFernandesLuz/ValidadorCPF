@@ -7,6 +7,7 @@ namespace ValidadorCPF.Dominio
         DateTime CreatedAt { get; set; }
         DateTime LastModified { get; set; }
     }
+
     public class CPF : ITimeStampedModel
     {
         public int Id { get; set; }

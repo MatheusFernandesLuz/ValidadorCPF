@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValidadorCPF.Repo", "Valida
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValidadorCPF.Suporte", "ValidadorCPF.Suporte\ValidadorCPF.Suporte.csproj", "{91E82FFE-03B4-45A9-A948-92AC99680E79}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidadorCPF.Dominio", "ValidadorCPF.Dominio\ValidadorCPF.Dominio.csproj", "{B1419394-6FB0-484C-8F87-71367258EAF6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValidadorCPF.Dominio", "ValidadorCPF.Dominio\ValidadorCPF.Dominio.csproj", "{B1419394-6FB0-484C-8F87-71367258EAF6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -41,13 +41,14 @@ namespace ValidadorCPF.WebAPI
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "WebAPI v1"));
+
+                // Desabilita o cors para desenvolvimento
+                app.UseCors(x => x.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
             }
 
-            // app.UseHttpsRedirection();
 
             app.UseRouting();
 
-            // app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {
