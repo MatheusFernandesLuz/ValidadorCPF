@@ -33,7 +33,7 @@ Não utilizei o docker no projeto pois ainda estou estudando ele e não tenho ta
 2. cd ValidadorCPF
 ```
 
-Infelizmente ainda não consigui descobrir como obter a connection string do aquivo de configuração do projeto. Então será necessário alterar a connection string no método onConfigure, para colocar os dados de usuário e senha do seu banco de dados. 
+Infelizmente ainda não consegui descobrir como obter a connection string do aquivo de configuração do projeto. Então será necessário alterar a connection string no método onConfigure, para colocar os dados de usuário e senha do seu banco de dados. 
 
 Loca para alterar a connection string: `ValidadorCPF.Repo/AppContext.cs, linha 16`
 
