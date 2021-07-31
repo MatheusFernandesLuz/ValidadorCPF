@@ -35,9 +35,7 @@ Não utilizei o docker no projeto pois ainda estou estudando ele e não tenho ta
 
 Infelizmente ainda não consigui descobrir como obter a connection string do aquivo de configuração do projeto. Então será necessário alterar a connection string no método onConfigure, para colocar os dados de usuário e senha do seu banco de dados. 
 
-`ValidadorCPF.Repo/AppContext.cs, linha 16`
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/aadc397f-34cb-465f-b50c-642afad30710/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/aadc397f-34cb-465f-b50c-642afad30710/Untitled.png)
+Loca para alterar a connection string: `ValidadorCPF.Repo/AppContext.cs, linha 16`
 
 ```csharp
 3. dotnet restore
